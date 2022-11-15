@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: myfont;
+}
+
+.hero{
+    margin-top: -40px; 
+    margin-left: -70px;
+}
+
+.form-section{
+    max-width: 60vw;
+    right: 0;
+    margin-left: 600px;
+    /* z-index: 1; */
+}
+
+
+.side{
+    position: fixed;
+    left: 0;
+    max-width: 40vw;
+    /* border-right: 1px solid red; */
+}
+
+
+
+@font-face {
+    font-family: myfont;
+    src: url(./assets/Aeonik-Medium.ace693c1.woff);
+}
+
+@media screen and (max-width: 768px) {
+    .form-section{      
+        width: 100%;
+        max-width: 100vw;
+        margin-left: 0;
+    }
+
+    .form {
+        width: 100%;
+
+    }
+
+    .side {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 992px) {
+    .form-section{      
+        width: 100%;
+        max-width: 100vw;
+        margin-left: 0;
+    }
+
+    .form {
+        width: 100%;
+
+    }
+
+    .side {
+        display: none;
+    }
+    
+}
